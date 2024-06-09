@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @DocWanderer
-- 👀 I’m interested in science, reading, cinema & tv series, marketing, coding 
-- 🌱 I’m currently learning HTML, CSS, Facebook Advertising, Google Advertising, Amazon Advertising
+- 👀 I’m interested in writing, reading, cinema & tv series, coding, science
+- 🌱 I’m currently learning HTML and CSS. Wanna learn JS, PHP, Python, R
 - 📫 How to reach me doctorwanderer12@gmail.com
 - 😄 Pronouns: they/them
 
