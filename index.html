@@ -3,7 +3,7 @@
     
 <head>
 
-<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SMBK0XQ79"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -16,27 +16,38 @@
  
 <meta name="viewport" content="width-device-width, initial-scale=1.0"/>
 <meta charset="UTF-8" />
+<link href="styles.css" rel="stylesheet"/>
 
 <title>Hello, World!</title>
         
     </head>
     
     <body>
-       <center> <h1 class="title">Hello, World!</h1> </center>
+       <center><h1>Hello, World!</h1></center>
 
 <!-- ID SHEET -->
+        <div id="charactersheet">
         <section>
-            <p><strong>Nickname</strong>: DocWanderer</p>
-            <p><strong>Age</strong>: 30-ish</p>
-            <p><strong>Loves</strong>: science, reading, writing, tv series & movies, music, learning</p>
+            
+            <div id="avatar">
             <figure>
-                <img src="https://i.pinimg.com/originals/fb/08/de/fb08de045ebe1925b8c1c9914fd7244f.jpg" alt="astronaut in pixel art light blue plain brackground" height="200px">
-                <figcaption><em>Cute avatar</em></figcaption>
-            </figure></p>
+                <img src="https://i.pinimg.com/originals/fb/08/de/fb08de045ebe1925b8c1c9914fd7244f.jpg" alt="astronaut in pixel art light blue plain brackground" height="100px">
+                <figcaption>Avatar</figcaption>
+            </figure>
+            </div>
+            
+            <article class="item">
+                <p class="spec"><strong>Nickname</strong></p><p class="specvalue">DocWanderer</p>
+                <p class="spec"><strong>Age</strong></p><p class="specvalue">30-ish</p>
+                <p class="spec"><strong>Born</strong></p><p class="specvalue">Italy</p>
+                <p class="spec"><strong>Currently</strong></p><p class="specvalue">Barcelona (Spain)</p>
+                <p class="spec"><strong>Loves</strong></p><p class="specvalue">writing, tv series & movies, music, reading, learning, science</p>
+            </article>
+            
         </section>
 
 <!-- LEARNING INTERESTS -->
-        <section>
+       <!-- <section>
             <h3>What I am interested in</h3>
             <p>Languages that I'd like to learn:</p>
             <ul>
@@ -48,16 +59,13 @@
                 <li>SQL</li>
                 <li>R</li>
             </ul>
-            <p>Other things that I enjoy (aka I wish I had more time and energy to self-study, but I'll get there):</p>
-            <ul>
-                <li>Math and Statistics</li>
-                <li>Physics</li>
-            </ul>
-        </section>
+        </section>  
  
-<!-- PASSIONS & HOBBIES-->       
+<!-- PASSIONS & HOBBIES-->  
     <section>
-        <h3>Miscellany</h3>
+        <h3>Get to know me better!</h3>
+        
+        <article>
             <p>Top artists that keep me company:</p>
             <ul>
                 <li>Pink Floyd</li>
@@ -76,7 +84,10 @@
                     I'm <em>obsessed</em> with this album, okay?
                 </figcaption>
             </figure>
+        </article>
+        
         </section>
+            </div>
 
 <!--FORM SECTION-->
         <section>
