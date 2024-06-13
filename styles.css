@@ -1,32 +1,130 @@
+/*color palette: https://www.canva.com/colors/color-palettes/foil-covered-sneakers/ */
+
+/*GENERAL*/
+
 body {
-    background-color: #E0E1DD;
+    background-color: #E9EAEC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    padding: 20px;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-family: Arial, Helvetica, sans-serif;
+    color: #333652
 }
 
-#charactersheet {
-    width:70%;
+figure {
+    width: fit-content;
+    margin: 1px;
+}
+
+figcaption {
+    font-size: 12px;
+    text-align: center;
+}
+
+#idsheet {
+    width:80%;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
 }
 
+hr {
+    height: 1px;
+    background-color: #90ADC6;
+    border-color: #90ADC6;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #90ADC6;
+}
+
+a:active {
+    color: #FAD02C;
+}
+
+/*HEADER*/
+
 #avatar {
-    width: 150px;
+    width: 100px;
+    height: 100px;
     border: solid 1px;
 }
 
+.avatar {
+    width: 100px;
+    height: 100px;
+}
+
+/*ID CARD*/
+
 .spec {
     text-align: left;
-    width: 20%;
+    width: 40%;
 }
 
 .specvalue {
     text-align: justify;
-    width: 80%;
+    width: 60%;
 }
 
 .item p {
     display: inline-block;
+    vertical-align: middle;
+}
+
+/*FORM SECTION*/
+
+#formsection {
+    width:80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+fieldset {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input {
+    background-color: #E9EAEC;
+    border: solid 0.5px;
+    padding: 4px;
+    width: fit-content;
+}
+
+button {
+    padding: 5px 10px 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid 2px grey;
+    border-style: outset;
+    background-color: #c7c8c9;
+    color: #333652;
+    font-family: Helvetica;
+}
+
+/*FOOTER*/
+
+.contact {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer {
+    font-size: 12px;
 }

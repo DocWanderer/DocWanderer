@@ -3,7 +3,7 @@
     
 <head>
 
-<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SMBK0XQ79"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -25,72 +25,78 @@
     <body>
        <center><h1>Hello, World!</h1></center>
 
-<!-- ID SHEET -->
-        <div id="charactersheet">
-        <section>
+        <div id="idsheet">
             
-            <div id="avatar">
+<!-- HEADER -->
+            
+        <section id="header">
             <figure>
-                <img src="https://i.pinimg.com/originals/fb/08/de/fb08de045ebe1925b8c1c9914fd7244f.jpg" alt="astronaut in pixel art light blue plain brackground" height="100px">
-                <figcaption>Avatar</figcaption>
-            </figure>
+            <div id="avatar">
+            <img class="avatar" src="https://i.pinimg.com/originals/fb/08/de/fb08de045ebe1925b8c1c9914fd7244f.jpg" alt="astronaut in pixel art light blue plain brackground">
             </div>
+            <figcaption>Cute avatar</figcaption>
+            </figure>
+        </section>
             
+  <!-- ID CARD -->          
+        <section>
             <article class="item">
                 <p class="spec"><strong>Nickname</strong></p><p class="specvalue">DocWanderer</p>
+            </article>
+            <article class="item">
                 <p class="spec"><strong>Age</strong></p><p class="specvalue">30-ish</p>
+            </article>
+            <article class="item">
                 <p class="spec"><strong>Born</strong></p><p class="specvalue">Italy</p>
+            </article>
+            <article class="item">
                 <p class="spec"><strong>Currently</strong></p><p class="specvalue">Barcelona (Spain)</p>
+            </article>
+            <article class="item">
                 <p class="spec"><strong>Loves</strong></p><p class="specvalue">writing, tv series & movies, music, reading, learning, science</p>
             </article>
-            
+            <article class="item">
+                <p class="spec"><strong>Hates</strong></p><p class="specvalue">any form of discrimination</p>
+            </article>
         </section>
+            <hr>
 
-<!-- LEARNING INTERESTS -->
-       <!-- <section>
-            <h3>What I am interested in</h3>
-            <p>Languages that I'd like to learn:</p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>PHP</li>
-                <li>Python</li>
-                <li>SQL</li>
-                <li>R</li>
-            </ul>
-        </section>  
- 
 <!-- PASSIONS & HOBBIES-->  
     <section>
-        <h3>Get to know me better!</h3>
+        <h3>Get to know me better</h3>
         
-        <article>
-            <p>Top artists that keep me company:</p>
+        <article class="music">
+            <p>Top played artists</p>
             <ul>
                 <li>Pink Floyd</li>
                 <li>Paolo Nutini</li>
                 <li>Jeff Buckley</li>
                 <li>Led Zeppelin</li>
                 <li>David Bowie</li>
+                <li>Queen</li>
+                <li>AaRON</li>
             </ul>
-            <figure>
-                <a href="https://www.youtube.com/watch?v=k9ynZnEBtvw&t=549s&ab_channel=PinkFloyd" target="_blank">
-                    <img 
-                    src="https://i.pinimg.com/564x/a2/72/68/a2726804b96c38ecea4c0cbac2c8e1e6.jpg"
-                    alt="The Dark Side of the Moon cover" height="150px">
-                </a>
-                <figcaption>
-                    I'm <em>obsessed</em> with this album, okay?
-                </figcaption>
-            </figure>
         </article>
         
+        <article class="tvshows">
+            <p>Top TV shows</p>
+            <ul>
+                <li>Doctor Who</li>
+                <li>Fringe</li>
+                <li>House MD</li>
+                <li>Mr. Robot</li>
+                <li>The Man in the High Castle</li>
+                <li>The Hour</li>
+            </ul>
+        </article>
         </section>
+            <hr>
             </div>
-
+        
 <!--FORM SECTION-->
-        <section>
+    
+            <div id="formsection">
+                <section>
             <h2>Say Hello!</h2>
             <p>Complete this form to show support or just to leave a nice message :)</p>
             <form action="/">
@@ -122,15 +128,20 @@
                 <legend>Drop a comment</legend>
                     <label><input type="text" name="comment" placeholder="Your comment"></label>
                 </fieldset>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
+                
+                <button type="submit"><strong>Submit</strong></button>
+                
+                </form>
+                </section>
+        </div>
     </body>
-    
+ 
+    <!-- FOOTER -->
 <footer>
     <center>
-        <p><a href="mailto:doctorwanderer12@gmail.com?subject=HelloWorld">Send email</a> 
-        <a href="https://x.com/doctorwanderer" target="_blank">Twitter/X</a>
+        <p class="contact"><a href="mailto:doctorwanderer12@gmail.com?subject=HelloWorld">Send email</a></p> 
+        <p class="contact"><a href="https://x.com/doctorwanderer" target="_blank">Twitter/X</a></p>
+        <p class="contact"><a href="https://discordapp.com/users/DoctorWanderer#2633" target="_blank">Discord</a></p>
     </center>
 </footer>
 </html>
