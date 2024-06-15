@@ -1,4 +1,5 @@
 /*color palette: https://www.canva.com/colors/color-palettes/foil-covered-sneakers/ */
+/*help for colors: https://encycolorpedia.com/ */
 
 /*GENERAL*/
 
@@ -9,7 +10,12 @@ body {
     padding: 20px;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1 {
+    font-family: "VT323", monospace;
+    font-size: 40px;
+}
+
+h2,h3,h4,h5,h6 {
     font-family: Arial, Helvetica, sans-serif;
     color: #333652
 }
@@ -55,6 +61,18 @@ a:active {
 }
 
 /*HEADER*/
+#header {
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#profilepic {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    vertical-align: middle;
+}
 
 #avatar {
     width: 100px;
@@ -65,6 +83,56 @@ a:active {
 .avatar {
     width: 100px;
     height: 100px;
+}
+
+#statsbars {
+    display: inline-block;
+    width: 58%;
+    vertical-align: middle;
+}
+
+.stat {
+    padding: 0;
+    margin: 3px;
+}
+
+.marker {
+    background-color: rgb(51,54,82);
+    height: 20px;
+    width: 200px;
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+    opacity: 30%;
+}
+
+.barphysical {
+    background-color: #333652;
+    height: 20px;
+    width: 55px;
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.barmental {
+    background-color: #333652;
+    height: 20px;
+    width: 150px;
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+    position: absolute;
+    margin-top: -20px;
+}
+
+.barsocial {
+    background-color: #333652;
+    height: 20px;
+    width: 90px;
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+    position: absolute;
+    margin-top: -20px;
 }
 
 /*ID CARD*/
