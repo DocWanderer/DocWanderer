@@ -1,5 +1,6 @@
 /*color palette: https://www.canva.com/colors/color-palettes/foil-covered-sneakers/ */
 /*help for colors: https://encycolorpedia.com/ */
+/*FILTER PROPERTY resource: https://developer.mozilla.org/en-US/docs/Web/CSS/filter */
 
 /*GENERAL*/
 
@@ -22,17 +23,19 @@ h2,h3,h4,h5,h6 {
 
 figure {
     width: fit-content;
-    margin: 1px;
+    margin: 5px;
 }
 
 figcaption {
     font-size: 12px;
     text-align: center;
+    margin-top: 5px;
 }
 
 #idsheet {
-    width:80%;
+    width: 80vw;
     max-width: 500px;
+    min-width: 400px;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -87,7 +90,7 @@ a:active {
     height: 100px;
 }
 
-#statsbars {
+#stats-bars {
     display: inline-block;
     width: 50%;
     vertical-align: middle;
@@ -107,7 +110,7 @@ a:active {
     opacity: 30%;
 }
 
-.barphysical {
+.bar-physical {
     background-color: #333652;
     height: 20px;
     width: 55px;
@@ -117,7 +120,7 @@ a:active {
     margin-top: -20px;
 }
 
-.barmental {
+.bar-mental {
     background-color: #333652;
     height: 20px;
     width: 150px;
@@ -127,7 +130,7 @@ a:active {
     margin-top: -20px;
 }
 
-.barsocial {
+.bar-social {
     background-color: #333652;
     height: 20px;
     width: 90px;
@@ -149,7 +152,7 @@ a:active {
     width: 60%;
 }
 
-.item p {
+.id-item p {
     display: inline-block;
     vertical-align: middle;
 }

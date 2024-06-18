@@ -3,7 +3,7 @@
     
 <head>
 
-<!-- Google tag (gtag.js)--> 
+<!-- Google tag (gtag.js) 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-4SMBK0XQ79"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -14,7 +14,7 @@
 </script>
 <!-- END GOOGLE ANALYTICS TAG-->
  
-<meta name="viewport" content="width-device-width, initial-scale=1.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta charset="UTF-8" />
 <link href="styles.css" rel="stylesheet"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -44,41 +44,41 @@
             </figure>       
             </div>
             
-            <div id="statsbars">
+            <div id="stats-bars">
                 
-                <p class="stat">Physical skills</p>
-                <div class="marker"></div>
-                <div class="barphysical"></div>
-                
-                <p class="stat">Mental skills</p>
+            <p class="stat">Physical skills</p>
             <div class="marker"></div>
-            <div class="barmental"></div>
+            <div class="bar-physical"></div>
                 
-                <p class="stat">Social skills</p>
+            <p class="stat">Mental skills</p>
             <div class="marker"></div>
-            <div class="barsocial"></div>
+            <div class="bar-mental"></div>
+                
+            <p class="stat">Social skills</p>
+            <div class="marker"></div>
+            <div class="bar-social"></div>
             </div>
         
             </section>
             
   <!-- ID CARD -->          
         <section>
-            <article class="item">
+            <article class="id-item">
                 <p class="spec"><strong>Nickname</strong></p><p class="specvalue">Doctor Wanderer</p>
             </article>
-            <article class="item">
+            <article class="id-item">
                 <p class="spec"><strong>Age</strong></p><p class="specvalue">30-ish</p>
             </article>
-            <article class="item">
+            <article class="id-item">
                 <p class="spec"><strong>Born</strong></p><p class="specvalue">Italy</p>
             </article>
-            <article class="item">
+            <article class="id-item">
                 <p class="spec"><strong>Currently</strong></p><p class="specvalue">Barcelona (Spain)</p>
             </article>
-            <article class="item">
+            <article class="id-item">
                 <p class="spec"><strong>Loves</strong></p><p class="specvalue">writing, tv series & movies, music, reading, learning, science</p>
             </article>
-            <article class="item">
+            <article class="id-item">
                 <p class="spec"><strong>About me</strong></p><p class="specvalue">in my dream world, I am an acclaimed writer... and maybe a passionate mathematician too.</p>
             </article>
         </section>
@@ -126,18 +126,18 @@
                 
                 <fieldset>
                 <legend>Who are you?</legend>
-                <label><input type="text" name="name" placeholder="Your name or nickname" required></label>
+                <label for="name"><input id="name" type="text" name="name" placeholder="Your name or nickname" required></label>
                 </fieldset>
                 
                 <fieldset>
                 <legend>Let's stay in touch! (optional)</legend>
-                <label><input type="email" name="email" placeholder="Your email address"></label>
+                <label for="email"><input id="email" type="email" name="email" placeholder="Your email address"></label>
                 </fieldset>
                 
                 <fieldset>
                 <legend>Are you enjoying this page so far?</legend>
-                    <input type="radio" id="yes" name="engagement" value="yes" checked><label for="yes">Yes, I'm having fun!</label>
-                    <input type="radio" id="no" name="engagement" value="no"><label for="no">No, I want to leaveee</label>
+                    <input id="engagement-yes" type="radio" id="yes" name="engagement" value="yes" checked><label for="engagement-yes">Yes, I'm having fun!</label>
+                    <input id="engagement-no" type="radio" id="no" name="engagement" value="no"><label for="engagement-no">No, I want to leaveee</label>
                 </fieldset>
                 
                 <fieldset>
@@ -149,7 +149,7 @@
                 
                 <fieldset>
                 <legend>Drop a comment</legend>
-                    <label><input type="text" name="comment" placeholder="Your comment"></label>
+                    <label for="comment"><input id="comment" type="text" name="comment" placeholder="Your comment"></label>
                 </fieldset>
                 
                 <button type="submit"><strong>Submit</strong></button>
